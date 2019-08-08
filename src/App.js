@@ -1,11 +1,19 @@
 import React from 'react';
-import Potato from './Potato'
+
+function People({name})
+{
+  return(
+    <h3>name: {name}</h3>
+  )
+}
 
 function App() {
   return (
     <div>
-      <Potato />
-     <h1>Hellooo motherfucker</h1>
+     <People name="Martin" />
+     <People name="Honey" />
+     <People name="ChaniChaniChanChan" />
+     <People name="JGyeoung" />
     </div>
   );
 }
